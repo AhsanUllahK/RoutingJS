@@ -7,7 +7,14 @@ export default function About() {
       <p>This is Me from National University</p>
       <p>How are You</p>
       <Link to="/">Go to Home Page</Link>
-{/* 
+
+      <li>
+        <Link to="/user/ahsan">Ahsan</Link>
+      </li>
+      <li>
+        <Link to="/user/sabir">Sabir</Link>
+      </li>
+      {/* 
       <li>
         <a href="/">Home</a>
       </li>
@@ -18,8 +25,6 @@ export default function About() {
       {/* using anchor tag routing from one page to another, the whole
        page/website/html refreshes which is a overhead and not a 
        feature of single page appplication. */}
-    
-    
     </div>
   );
 }
