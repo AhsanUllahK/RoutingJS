@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import { Navbar } from './components/Navbar';
 import { User } from './components/User';
+import Filter from './components/Filter';
 // import Page404 from './components/Page404';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path='/user/:name' element={<User />} />
       {/* <Route path='/*' element ={ <Page404 />} /> */}
       <Route path='/*' element ={ <Navigate to="/" />} />
+      <Route path='/filter' element={<Filter />}/>
 
      </Routes>
      {/* <Navbar /> */}
