@@ -15,8 +15,11 @@ const Filter = () => {
         <h2>The age is: {age}</h2>
         <h2>The city is : {city}</h2>
         <input type="text" onChange={(e)=>setSearchParams({age:e.target.value})} placeholder="Set Age in Query params" />
-        <button onClick={(e)=>setSearchParams({age:40})}>Set Age in Query params</button>
+        <button onClick={(e)=>setSearchParams({age:40})}>Set Age in Query params</button><br /><br />
 
+
+        <input type="text" onChange={(e)=>setSearchParams({city:e.target.value})} placeholder="Set city in Query params" />
+        <button onClick={(e)=>setSearchParams({city:"karachi"})}>Set City in Query params</button><br /><br />
 
     </div>
 
